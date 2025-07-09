@@ -6,8 +6,8 @@
  
 
 # Define arrays for iteration - paired host:port combinations
-redis_hosts=("localhost" "redis-12000.internal.cluster.kamran-default.demo.redislabs.com" "redis-13000.internal.cluster.kamran-default.demo.redislabs.com" "redis-14000.internal.cluster.kamran-default.demo.redislabs.com" "redis-15000.internal.cluster.kamran-default.demo.redislabs.com" "redis-16000.internal.cluster.kamran-default.demo.redislabs.com")
-redis_ports=(6379 12000 13000 14000 15000 16000)
+redis_hosts=("localhost" "localhost" "redis-12000.internal.cluster.kamran-default.demo.redislabs.com" "redis-13000.internal.cluster.kamran-default.demo.redislabs.com" "redis-14000.internal.cluster.kamran-default.demo.redislabs.com" "redis-15000.internal.cluster.kamran-default.demo.redislabs.com" "redis-16000.internal.cluster.kamran-default.demo.redislabs.com")
+redis_ports=(6379 6380 12000 13000 14000 15000 16000)
 algorithms=("flat" "hnsw")
 operations=("load" "query")
 workers=(1 16)
